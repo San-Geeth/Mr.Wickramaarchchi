@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "Is anyone there?", "Hello", "Good day" ],
+      "responses": [ "Hello! How can I help you? ", "Good to see you again! How may I help you?", "Hi there! So, how can I help you?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "Have a Good day" ],
+      "responses": [ "Have a nice day...", "Sad to see you go...", "Thank you for visiting", "Goodbye..." ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [ "when you are open", "what are your working hours" ],
+      "responses": [ "We are open 8am to 9pm in weekdays. We are closed on weekends." ],
+      "context_set": ""
+    },
+    {
+      "tag": "services",
+      "patterns": [ "what are the services you offer?", "what are you doing?", "are you making films?", "are you making short films?", "are you doing promotional videos?" ],
+      "responses": [ "We are a professional video editing, content creating, advertising and designing company. We cover weddings, event photography and videography. " ],
+      "context_set": ""
+    },
+    {
+      "tag": "dates",
+      "patterns": [ "what are the available dates to make an appoinment?", "when are you free to make an appoinment?", "I need to make an appoinment" ],
+      "responses": [ "If you are new commer please create a user account. Then you will be able to make an appoinment according to our available dates. If you already have an account, please login and make your appoinment." ],
+      "context_set": ""
+    }
+  ]
+}
